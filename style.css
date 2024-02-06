@@ -41,4 +41,5 @@ div.btnbg {
 }
 .text p.footer-text{
     text-indent: unset;
+    text-align: right;
 }
