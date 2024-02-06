@@ -10,6 +10,35 @@ canvas {
 }
 div.btnbg {
     position:fixed;
-    left:0;
-    top:0;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 500px;
+    background: #ff575766;
+    border-radius: 15px;
+    padding: 15px;
+    font-family: sans-serif;
+    color: white;
+    overflow: hidden;
+}
+.header{
+    background: url("text.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+}
+.text{
+    font-family: "Great Vibes", cursive;
+    font-size: 25px;
+}
+.text p{
+    text-indent: 15px;
+}
+.text p.header-text{
+    text-indent: unset;
+}
+.text p.footer-text{
+    text-indent: unset;
 }
